@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.andigeeky.dagger.daggerexample">
+          xmlns:tools="http://schemas.android.com/tools" package="com.andigeeky.dagger.daggerexample">
 
     <application
             android:allowBackup="true"
@@ -8,8 +8,11 @@
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/AppTheme">
-        <activity android:name="com.andigeeky.dagger.daggerexample.version1.main.MainActivity">
+            android:name=".version2.SampleApp"
+            android:theme="@style/AppTheme" tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="com.andigeeky.dagger.daggerexample.version1.main.MainActivity"/>
+
+        <activity android:name="com.andigeeky.dagger.daggerexample.version2.post.PostActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

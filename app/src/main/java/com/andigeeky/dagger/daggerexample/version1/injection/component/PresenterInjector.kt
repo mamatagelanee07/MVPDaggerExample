@@ -15,8 +15,8 @@ import javax.inject.Singleton
 @Component(modules = [(ContextModule::class)])
 interface PresenterInjector {
     /**
-     * Injects required dependencies into the specified PostPresenter.
-     * @param postPresenter PostPresenter in which to inject the dependencies
+     * Injects required dependencies into the specified Presenter.
+     * @param postPresenter Presenter in which to inject the dependencies
      */
     fun inject(postPresenter: PostPresenter)
 
