@@ -1,7 +1,7 @@
-package com.andigeeky.dagger.daggerexample.main
+package com.andigeeky.dagger.daggerexample.version1.main
 
 import android.util.Log
-import com.andigeeky.dagger.daggerexample.base.BasePresenter
+import com.andigeeky.dagger.daggerexample.version1.base.BasePresenter
 
 class MainPresenter(view: MainView) : BasePresenter<MainView>(view) {
     fun callMainPresenter(){

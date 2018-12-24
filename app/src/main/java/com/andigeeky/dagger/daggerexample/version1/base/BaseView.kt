@@ -1,4 +1,4 @@
-package com.andigeeky.dagger.daggerexample.base
+package com.andigeeky.dagger.daggerexample.version1.base
 
 import android.content.Context
 

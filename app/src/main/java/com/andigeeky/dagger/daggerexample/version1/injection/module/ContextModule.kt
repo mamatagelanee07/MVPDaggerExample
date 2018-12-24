@@ -1,10 +1,10 @@
-package com.andigeeky.dagger.daggerexample.injection.module
+package com.andigeeky.dagger.daggerexample.version1.injection.module
 
 import android.app.Application
 import android.content.Context
 import dagger.Module
 import dagger.Provides
-import com.andigeeky.dagger.daggerexample.base.BaseView
+import com.andigeeky.dagger.daggerexample.version1.base.BaseView
 
 /**
  * Module which provides all required dependencies about Context

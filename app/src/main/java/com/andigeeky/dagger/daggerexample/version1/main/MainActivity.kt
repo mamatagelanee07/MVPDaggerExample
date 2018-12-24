@@ -1,9 +1,9 @@
-package com.andigeeky.dagger.daggerexample.main
+package com.andigeeky.dagger.daggerexample.version1.main
 
 import android.os.Bundle
 import android.util.Log
 import com.andigeeky.dagger.daggerexample.R
-import com.andigeeky.dagger.daggerexample.base.BaseActivity
+import com.andigeeky.dagger.daggerexample.version1.base.BaseActivity
 
 class MainActivity : BaseActivity<MainPresenter>(), MainView{
 

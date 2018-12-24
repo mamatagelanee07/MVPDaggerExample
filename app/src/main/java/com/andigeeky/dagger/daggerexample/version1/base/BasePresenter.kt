@@ -1,9 +1,9 @@
-package com.andigeeky.dagger.daggerexample.base
+package com.andigeeky.dagger.daggerexample.version1.base
 
-import com.andigeeky.dagger.daggerexample.injection.component.DaggerPresenterInjector
-import com.andigeeky.dagger.daggerexample.injection.component.PresenterInjector
-import com.andigeeky.dagger.daggerexample.injection.module.ContextModule
-import com.andigeeky.dagger.daggerexample.post.PostPresenter
+import com.andigeeky.dagger.daggerexample.version1.injection.component.DaggerPresenterInjector
+import com.andigeeky.dagger.daggerexample.version1.injection.component.PresenterInjector
+import com.andigeeky.dagger.daggerexample.version1.injection.module.ContextModule
+import com.andigeeky.dagger.daggerexample.version1.post.PostPresenter
 
 /**
  * Base presenter any presenter of the application must extend. It provides initial injections and

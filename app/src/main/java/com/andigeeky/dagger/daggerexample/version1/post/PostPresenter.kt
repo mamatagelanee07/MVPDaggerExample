@@ -1,6 +1,6 @@
-package com.andigeeky.dagger.daggerexample.post
+package com.andigeeky.dagger.daggerexample.version1.post
 
-import com.andigeeky.dagger.daggerexample.base.BasePresenter
+import com.andigeeky.dagger.daggerexample.version1.base.BasePresenter
 import net.gahfy.feedme.ui.post.PostView
 
 /**

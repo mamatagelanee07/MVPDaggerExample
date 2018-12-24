@@ -1,10 +1,10 @@
-package com.andigeeky.dagger.daggerexample.injection.component
+package com.andigeeky.dagger.daggerexample.version1.injection.component
 
-import com.andigeeky.dagger.daggerexample.base.BaseView
+import com.andigeeky.dagger.daggerexample.version1.base.BaseView
 import dagger.BindsInstance
 import dagger.Component
-import com.andigeeky.dagger.daggerexample.injection.module.ContextModule
-import com.andigeeky.dagger.daggerexample.post.PostPresenter
+import com.andigeeky.dagger.daggerexample.version1.injection.module.ContextModule
+import com.andigeeky.dagger.daggerexample.version1.post.PostPresenter
 import javax.inject.Singleton
 
 

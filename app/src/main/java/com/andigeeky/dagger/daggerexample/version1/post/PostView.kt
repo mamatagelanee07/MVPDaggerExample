@@ -1,6 +1,6 @@
 package net.gahfy.feedme.ui.post
 
-import com.andigeeky.dagger.daggerexample.base.BaseView
+import com.andigeeky.dagger.daggerexample.version1.base.BaseView
 
 /**
  * Interface providing required method for a view displaying posts
