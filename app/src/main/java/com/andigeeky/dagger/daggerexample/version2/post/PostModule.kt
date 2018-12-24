@@ -14,4 +14,8 @@ abstract class PostModule {
     @ActivityScoped
     @Binds
     internal abstract fun postPresenter(presenter: PostPresenter): PostContract.Presenter
+
+    @ActivityScoped
+    @Binds
+    internal abstract fun postView(postActivity: PostActivity) : PostContract.View
 }

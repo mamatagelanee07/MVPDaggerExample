@@ -5,12 +5,14 @@ import com.andigeeky.dagger.daggerexample.version2.di.ActivityScoped
 import javax.inject.Inject
 
 @ActivityScoped
-class PostPresenter @Inject constructor(private val loadCommentUseCase: LoadCommentUseCase): PostContract.Presenter{
+class PostPresenter @Inject constructor(private val view: PostContract.View,
+                                        private val loadCommentUseCase: LoadCommentUseCase): PostContract.Presenter{
 
     override fun loadComments() {
         Log.e(TAG, "loadComments()")
         loadCommentUseCase.execute()
         Log.e(TAG, "loadCommentUseCase.execute()")
+        view.showLoading()
     }
 
     override fun postComments() {
