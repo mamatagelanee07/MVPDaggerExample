@@ -17,7 +17,7 @@ class MainActivity : BaseActivity<MainPresenter>(), MainView{
         Log.e("MainActivity", "loadMain")
     }
 
-    override fun instantiatePresenter(): {
+    override fun instantiatePresenter(): MainPresenter{
         return MainPresenter(this)
     }
 }
